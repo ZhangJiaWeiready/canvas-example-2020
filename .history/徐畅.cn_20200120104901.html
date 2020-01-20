@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://csxiaoyao.cn/xc/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>徐畅.cn</title>
+  <link rel="stylesheet" href="./徐畅.cn_files/normalize.css">
+  <link rel="stylesheet" href="./徐畅.cn_files/style.css" media="screen" type="text/css">
+<style type="text/css">@font-face {
+  font-family: 'rbicon';
+  src: url(chrome-extension://dipiagiiohfljcicegpgffpbnjmgjcnf/fonts/rbicon.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+</style><script type="text/javascript" src="chrome-extension://dbjbempljhcmhlfpfacalomonjpalpko/scripts/inspector.js"></script><input type="hidden" id="_____________________________________________i____________"></head>
+<body class="body--ready">
+  <canvas class="canvas" width="1920" height="937"></canvas>
+
+  <div class="overlay">
+    <div class="tabs">
+      <div class="tabs-labels"><span class="tabs-label tabs-label--active">Commands</span><span class="tabs-label">Info</span><span class="tabs-label">Share</span></div>
+      <div class="tabs-panels">
+        <ul class="tabs-panel commands tabs-panel--active">
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="./徐畅.cn_files/index.js.下载"></script>
+  <audio controls="" autoplay="autoplay" loop="loop" id="audio" preload="auto" style="display:none;">
+    <source src="./sweet.mp3" type="audio/mpeg">
+  </audio>
+  <script>
+  function audioAutoPlay(id){
+    var audio = document.getElementById(id),
+    play = function(){
+      audio.play();
+      document.removeEventListener("click", play, false);
+      document.removeEventListener("touchstart", play, false);
+    };
+    document.addEventListener("WeixinJSBridgeReady", function () {
+      play();
+    }, false);
+    document.addEventListener('YixinJSBridgeReady', function() {
+      play();
+    }, false);
+    document.addEventListener("click",play, false);
+    document.addEventListener("touchstart",play, false);
+  }
+  audioAutoPlay('audio');
+  </script>
+
+<div id="rememberry__extension__root" style="all: unset;"></div><div id="new-tab-sidebar" class="hidden"><div class="wrap">        <img class="new-tab-logo" src="chrome-extension://meffljleomgifbbcffejnmhjagncfpbd/img/128x128.png">            <ul></ul></div></div><div style="
+    height: 100px;
+"></div></body></html>
